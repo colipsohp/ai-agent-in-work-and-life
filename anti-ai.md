@@ -1,6 +1,6 @@
 # anti-ai —— 去 AI 味写作规范（本书专用）
 
-> 面向本书《AI Agent 在工作与生活中的应用》书稿（`book/`）与配套素材文案（`assets/chapterN/`）的"去 AI 味"质检文档。
+> 面向本书《吴迪日记》书稿（`book/`）与配套素材文案（`assets/chapterN/`）的"去 AI 味"质检文档。
 >
 > 移植自 [awesome-novel-agent 的 anti-ai 管线](https://github.com/modoojunko/awesome-novel-agent/blob/main/skills/anti-ai.md)（Phase 1-4 + Gate A-F）。两处主要改动：
 >

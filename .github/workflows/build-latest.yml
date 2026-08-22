@@ -28,14 +28,14 @@ jobs:
       - name: Build EPUB and PDF
         run: |
           pandoc book/introduction.md book/chapter1.md book/afterword.md \
-            --metadata title="AI Agent 在工作与生活中的应用" \
+            --metadata title="吴迪日记" \
             --metadata lang=zh-CN \
             --epub-cover-image=book/cover.png \
             -o book.epub
           pandoc book/introduction.md book/chapter1.md book/afterword.md \
             --pdf-engine=weasyprint \
             --css=book/ebook.css \
-            --metadata title="AI Agent 在工作与生活中的应用" \
+            --metadata title="吴迪日记" \
             -o book.pdf
 
       # ④ 删除旧的 latest 发布（第一次运行还没有，报错没关系），再创建新的

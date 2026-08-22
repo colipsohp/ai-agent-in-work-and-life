@@ -1,6 +1,6 @@
 # mkdocs.yml —— 在线书站的总配置
 
-site_name: AI Agent 在工作与生活中的应用
+site_name: 吴迪日记
 site_description: 一本关于 AI Agent 在工作与生活中应用的开源书
 site_url: https://colipsohp.github.io/ai-agent-in-work-and-life/   # 必须改成自己的
 repo_url: https://github.com/colipsohp/ai-agent-in-work-and-life    # 必须改成自己的
