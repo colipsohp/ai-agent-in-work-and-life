@@ -1,0 +1,39 @@
+# 作用：每次 push 到 main 分支，自动构建书站并发布到 GitHub Pages
+name: Deploy site                  # 在 Actions 页面看到的任务名
+
+on:
+  push:
+    branches: [main]               # 触发条件：代码推送到 main 分支
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true         # 新构建开始时取消旧的
+
+jobs:
+  build:
+    runs-on: ubuntu-latest         # GitHub 提供的免费 Linux 虚拟机
+    steps:
+      - uses: actions/checkout@v4              # ① 把仓库代码下载到虚拟机
+      - uses: actions/setup-python@v5          # ② 安装 Python
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-docs.txt   # ③ 安装 MkDocs
+      - run: mkdocs build                       # ④ 构建站点（产物在 site/ 目录）
+      - uses: actions/upload-pages-artifact@v3  # ⑤ 把 site/ 打包成部署产物
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}   # 部署完成后显示站点地址
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4          # ⑥ 发布到 GitHub Pages

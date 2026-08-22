@@ -1,0 +1,5 @@
+# 构建在线书站所需的 Python 依赖（版本锁定范围，避免上游更新悄悄弄坏构建）
+# [imaging] 附带 Pillow + CairoSVG：social 插件生成分享卡片所需
+mkdocs-material[imaging] >= 9.5, < 10
+mkdocs-git-revision-date-localized-plugin >= 1.2, < 2
+Markdown >= 3.5, < 4

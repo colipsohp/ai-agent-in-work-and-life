@@ -1,0 +1,49 @@
+# 作用：每次 push 到 main，自动构建 PDF/EPUB 并更新 Releases 的 latest 发布
+name: Build releases
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write               # 允许创建/更新 Releases
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # ① 安装 pandoc、中文字体与 WeasyPrint 所需系统库（一条 apt 命令）
+      - name: Install pandoc and CJK fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc fonts-noto-cjk libpango-1.0-0 libpangoft2-1.0-0
+
+      # ② 安装 WeasyPrint（PDF 渲染引擎）
+      - name: Install Python deps
+        run: pip install -r requirements-build.txt
+
+      # ③ 按顺序列出全部章节文件（每写一章，在这里给两个 pandoc 命令各加一行）
+      - name: Build EPUB and PDF
+        run: |
+          pandoc book/introduction.md book/chapter1.md book/afterword.md \
+            --metadata title="AI Agent 在工作与生活中的应用" \
+            --metadata lang=zh-CN \
+            --epub-cover-image=book/cover.png \
+            -o book.epub
+          pandoc book/introduction.md book/chapter1.md book/afterword.md \
+            --pdf-engine=weasyprint \
+            --css=book/ebook.css \
+            --metadata title="AI Agent 在工作与生活中的应用" \
+            -o book.pdf
+
+      # ④ 删除旧的 latest 发布（第一次运行还没有，报错没关系），再创建新的
+      - name: Publish to latest release
+        run: |
+          gh release delete latest --yes || true
+          gh release create latest book.epub book.pdf \
+            --title "最新构建（每次 push 自动更新）" \
+            --notes "由 GitHub Actions 自动生成，随书稿同步更新。"
+        env:
+          GH_TOKEN: ${{ github.token }}

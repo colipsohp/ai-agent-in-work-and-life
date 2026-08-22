@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colipsohp.github.io/ai-agent-in-work-and-life/sitemap.xml

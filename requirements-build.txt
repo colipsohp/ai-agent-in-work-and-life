@@ -1,0 +1,2 @@
+# 构建 EPUB/PDF 所需的 Python 依赖（在 GitHub Actions 的 Linux 虚拟机上使用）
+weasyprint >= 60, < 64
