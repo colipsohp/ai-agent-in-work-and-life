@@ -5,18 +5,18 @@ site_description: 一本关于 AI Agent 在工作与生活中应用的开源书
 site_url: https://colipsohp.github.io/ai-agent-in-work-and-life/   # 必须改成自己的
 repo_url: https://github.com/colipsohp/ai-agent-in-work-and-life    # 必须改成自己的
 repo_name: ai-agent-in-work-and-life
-edit_uri: edit/main           # 页脚"编辑此页"铅笔指向 GitHub main 分支
+edit_uri: edit/main/book/     # 页脚"编辑此页"铅笔指向 GitHub main 分支（docs_dir 是 book/，需带上前缀）
 
-docs_dir: .                   # 把仓库根目录当文档目录，书稿在 book/ 下
+docs_dir: book                # 书稿目录即站点根目录（书稿是唯一事实来源）
 
-# 侧边栏目录：想出现在书站上的页面必须在这里列出
+# 侧边栏目录：想出现在书站上的页面必须在这里列出（路径相对 docs_dir）
 nav:
   - 首页: index.md
-  - 引言: book/introduction.md
-  - 第 1 章 · 认识 AI Agent: book/chapter1.md
-  - 后记: book/afterword.md
+  - 引言: introduction.md
+  - 第 1 章 · 认识 AI Agent: chapter1.md
+  - 后记: afterword.md
   # 以后每写一章，在这里加一行，例如：
-  # - 第 2 章 · ...: book/chapter2.md
+  # - 第 2 章 · ...: chapter2.md
 
 theme:
   name: material

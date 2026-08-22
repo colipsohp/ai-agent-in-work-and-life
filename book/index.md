@@ -4,9 +4,9 @@
 
 ## 开始阅读
 
-- [引言](book/introduction.md)
-- [第 1 章 · 认识 AI Agent](book/chapter1.md)
-- [后记](book/afterword.md)
+- [引言](introduction.md)
+- [第 1 章 · 认识 AI Agent](chapter1.md)
+- [后记](afterword.md)
 
 ## 下载
 

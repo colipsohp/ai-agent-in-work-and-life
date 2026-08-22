@@ -4,8 +4,8 @@
 
 ## 项目结构
 
-- `book/` — 书稿唯一来源，站点、PDF/EPUB 全部由它生成，一文件一章
-- `assets/chapterN/` — 每章素材库（`images/` 原始素材、`files/` 成品文件），与 `book/chapterN.md` 一一对应
+- `book/` — 书稿唯一来源，站点、PDF/EPUB 全部由它生成，一文件一章；同时是在线书站的站点根目录（`mkdocs.yml` 的 `docs_dir: book`）
+- `book/assets/chapterN/` — 每章素材库（`images/` 原始素材、`files/` 成品文件），与 `book/chapterN.md` 一一对应；站点首页 `book/index.md`、`book/robots.txt` 也在 `book/` 下
 - `mkdocs.yml` — 在线书站配置（Material for MkDocs）
 - `.github/workflows/` — `deploy-pages.yml`（发布书站）、`build-latest.yml`（构建 PDF/EPUB）
 - `setup.md` — 项目 PRD，完整设计决策以此为准
@@ -15,8 +15,8 @@
 ## 写作约定
 - 每次写文章，都要参考`anti-ai.md`这份防止写出AI味的写作指南。
 - 章节文件名与编号一致：`book/chapter1.md`；一级标题用日期加简短概述作为标题，例如：`# 8月22日 - 整理一堆麻烦的单据`
-- 正文内嵌插图放 `book/images/`；原始素材放 `assets/chapterN/images/`
-- 正文引用素材必须用 `../assets/chapterN/...` 相对路径（GitHub 网页与书站两处都可达）
+- 正文内嵌插图放 `book/images/`；原始素材放 `book/assets/chapterN/images/`
+- 正文引用素材必须用 `../assets/chapterN/...` 相对路径（GitHub 网页与书站两处都可达；素材实际位于 `book/assets/chapterN/`，相对路径写法不变）
 - 支持 Mermaid 代码块与 LaTeX 公式，可直接使用
 - 站点与 PDF/EPUB 均为构建产物，不要手动维护
 
