@@ -5,10 +5,10 @@
 ## 开始阅读
 
 - [引言](introduction.md)
-- [第 1 章 · 认识 AI Agent](chapter1.md)
-- [第 2 章 · 隔空取物](chapter2.md)
-- [第 3 章 · 安排旅游](chapter3.md)
-- [第 4 章 · C盘瘦身](chapter4.md)
+- [8月22日 - 整理一堆麻烦的单据](chapter1.md)
+- [8月23日 - 隔空取物](chapter2.md)
+- [8月25日 - 安排旅游](chapter3.md)
+- [9月2日 - C盘满了](chapter4.md)
 - [后记](afterword.md)
 
 ## 下载

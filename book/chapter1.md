@@ -18,6 +18,8 @@
 
 这事，得从头说。每周一，都是这么一沓纸。日期、用途、金额，一张一张对着敲进表格里。上百张单子，搭上大半天，手疼，眼睛疼，脖子疼。
 
+![吴迪手头那沓收据，光看着就头疼](../assets/chapter1/images/收据1.webp)
+
 你问我为啥脖子疼，废话，一下低头看纸，一下抬头看屏幕，能不脖子疼嘛。
 
 敲错一个数，月底对账对不上，财务大姐一个电话打过来，那语气，比催房贷的还冲。上回她在电话里训人，隔着两层楼，我桌上的仙人掌都蔫了。
@@ -52,8 +54,8 @@
 4. 核对：对着原单查，改错。
 5. 检查，交差。
 
-> 📎 **本章素材**：吴迪拍的那沓收据照片样例见 [assets/chapter1/images](../assets/chapter1/images/)，小汪同学整理出来的表格见 [收据汇总.xlsx](../assets/chapter1/files/收据汇总.xlsx)。把照片换成你自己的单据，照着上面五步就能复刻。
+> 📎 **本章素材**：吴迪拍的那沓收据照片样例见 [收据1](../assets/chapter1/images/收据1.webp)，小汪同学整理出来的表格见 [收据汇总.xlsx](../assets/chapter1/files/收据汇总.xlsx)。把照片换成你自己的单据，照着上面五步就能复刻。
 
-> 吴迪让AI干活的现场：https://wang.vocvx.com/share/N2HmfDhAea7zMoC_zMXtAw
+> 吴迪让AI干活的现场：[https://wang.vocvx.com/share/N2HmfDhAea7zMoC_zMXtAw](https://wang.vocvx.com/share/N2HmfDhAea7zMoC_zMXtAw)
 
-> 必备软件：小汪同学电脑客户端，安装链接：https://wang.vocvx.com/download
+> 必备软件：小汪同学电脑客户端，安装链接：[https://wang.vocvx.com/download](https://wang.vocvx.com/download)

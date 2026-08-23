@@ -122,4 +122,4 @@
 ## 附
 > 吴迪让小汪同学干活的现场：
 
-> 必备软件：小汪同学电脑客户端 + 手机端，安装链接：https://wang.vocvx.com/download
+> 必备软件：小汪同学电脑客户端 + 手机端，安装链接：[https://wang.vocvx.com/download](https://wang.vocvx.com/download)
