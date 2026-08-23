@@ -54,7 +54,7 @@
 4. 核对：对着原单查，改错。
 5. 检查，交差。
 
-> 📎 **本章素材**：吴迪拍的那沓收据照片样例见 [收据1](https://github.com/colipsohp/ai-agent-in-work-and-life/tree/main/book/assets/chapter1/images)，小汪同学整理出来的表格见 [收据汇总.xlsx]([../assets/chapter1/files/](https://github.com/colipsohp/ai-agent-in-work-and-life/tree/main/book/assets/chapter1/files))。把照片换成你自己的单据，照着上面五步就能复刻。
+> 📎 **本章素材**：吴迪拍的那沓收据照片样例见 [收据1](https://github.com/colipsohp/ai-agent-in-work-and-life/tree/main/book/assets/chapter1/images)，小汪同学整理出来的表格见 [收据汇总.xlsx](https://github.com/colipsohp/ai-agent-in-work-and-life/tree/main/book/assets/chapter1/files)。把照片换成你自己的单据，照着上面五步就能复刻。
 
 > 吴迪让AI干活的现场：[整理收据照片为表格](https://wang.vocvx.com/share/N2HmfDhAea7zMoC_zMXtAw)
 
