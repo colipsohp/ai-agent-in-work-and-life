@@ -86,7 +86,7 @@
 2. 找文件把话说全：在哪、叫什么、发到哪。
 3. 传之前让 AI 报一遍：文件名、修改时间、大小，对得上再要。
 
-> 📎 **本章素材**：隔空取物的竞争格局报告见 [竞争格局报告]((https://github.com/colipsohp/ai-agent-in-work-and-life/tree/main/book/assets/chapter2/files))。把文件名换成你自己的，照着上面三句话，就能把家里电脑上的文件隔空拿回来。
+> 📎 **本章素材**：隔空取物的竞争格局报告见 [竞争格局报告](https://github.com/colipsohp/ai-agent-in-work-and-life/tree/main/book/assets/chapter2/files)。把文件名换成你自己的，照着上面三句话，就能把家里电脑上的文件隔空拿回来。
 
 > 吴迪让AI干活的现场：[把桌面文件存进网盘](https://wang.vocvx.com/share/SYGgK7aQUB6gxvM5GmHl4w)
 

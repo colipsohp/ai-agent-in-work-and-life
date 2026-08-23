@@ -4,7 +4,7 @@
 
 ## 📖 阅读与下载
 
-- **在线阅读**：<https://colipsohp.github.io/ai-agent-in-work-and-life/>（目录树 + 全文搜索 + 暗色模式）
+- **在线阅读**：<https://colipsohp.github.io/ai-agent-in-work-and-life/>
 - **PDF（始终最新）**：<https://github.com/colipsohp/ai-agent-in-work-and-life/releases/download/latest/book.pdf>
 - **EPUB（始终最新）**：<https://github.com/colipsohp/ai-agent-in-work-and-life/releases/download/latest/book.epub>
 
