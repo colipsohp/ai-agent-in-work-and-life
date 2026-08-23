@@ -6,6 +6,9 @@
 
 - [引言](introduction.md)
 - [第 1 章 · 认识 AI Agent](chapter1.md)
+- [第 2 章 · 隔空取物](chapter2.md)
+- [第 3 章 · 安排旅游](chapter3.md)
+- [第 4 章 · C盘瘦身](chapter4.md)
 - [后记](afterword.md)
 
 ## 下载

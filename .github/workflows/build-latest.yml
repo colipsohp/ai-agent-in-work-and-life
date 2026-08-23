@@ -27,12 +27,12 @@ jobs:
       # ③ 按顺序列出全部章节文件（每写一章，在这里给两个 pandoc 命令各加一行）
       - name: Build EPUB and PDF
         run: |
-          pandoc book/introduction.md book/chapter1.md book/afterword.md \
+          pandoc book/introduction.md book/chapter1.md book/chapter2.md book/chapter3.md book/chapter4.md book/afterword.md \
             --metadata title="吴迪日记" \
             --metadata lang=zh-CN \
             --epub-cover-image=book/cover.png \
             -o book.epub
-          pandoc book/introduction.md book/chapter1.md book/afterword.md \
+          pandoc book/introduction.md book/chapter1.md book/chapter2.md book/chapter3.md book/chapter4.md book/afterword.md \
             --pdf-engine=weasyprint \
             --css=book/ebook.css \
             --metadata title="吴迪日记" \
